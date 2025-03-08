@@ -11,5 +11,5 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
 - ## Datasets 
  All the three datasets that we have used in our work can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master) 
 
- - ## File Organization
+ - ## Scripts Organization
     
