@@ -7,3 +7,6 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
 
 ## Packages and Dependencies
 - For packages and dependencies, first create an enviroment using Python, activate the enviroment and run "pip install -r requirements.txt" . We run all our experiments on Python version 3.12.6
+
+- ## Datasets 
+ All the three datasets that we have used in our work can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master) 
