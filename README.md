@@ -12,4 +12,12 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
  All the three datasets that we have used in our work can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master) 
 
  - ## Scripts Organization
+   Each dataset folder contains all the scripts for the respective dataset and category.
+
+- ## Usage or Training and Evaluation Per Dataset and Exercise 
+  To run our model for EHE, KIMORE or UI-PRMD per exercise, `cd` into the 'run_files' folder and then  'python .\run_file_GeoDML_Softmax' or the Sigmoid file for our best variants described in the paper. You can similarly run 'python .\run_file_KShapeNet_softmax' or the Sigmoid version for KShapeNet only.
+  
+- ## Test Probabilities Evaluation Metrics
+  To compute ED, CR, SD and DM, use the file 'compute_euclid_and_corr' in the EHE forlder for EHE dataset; the file 'compute_cr_corr_KIMORE' for the KIMORE dataset; and the file 'compute_sd_and_dm_UI-PRMD' for the UI-PRMD dataset.  
+    
     
