@@ -6,22 +6,22 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
 </div>
 
 ## Packages and Dependencies
-For packages and dependencies, first create an enviroment using Python, activate the enviroment and run `pip install -r requirements.txt` . We run all our experiments on Python version 3.12.6
+- For packages and dependencies, first create an enviroment using Python, activate the enviroment and run `pip install -r requirements.txt` . We run all our experiments on Python version 3.12.6
 
 ## Datasets
-All the three datasets that we have used in our work can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master) 
+- All the three datasets that we have used in our work can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master) 
 
 ## Scripts Organization
-Each dataset folder contains all the scripts for the respective dataset and category.
+- Each dataset folder contains all the scripts for the respective dataset and category.
 
 ## Usage or Training and Evaluation Per Dataset and Exercise 
-To run our model for EHE, KIMORE or UI-PRMD per exercise, `cd` into the 'run_files' folder and then  `python .\run_file_GeoDML_Softmax.py` or the Sigmoid file for our best variants described in the paper. You can similarly run `python .\run_file_KShapeNet_softmax.py` or the Sigmoid version for KShapeNet only.
+- To run our model for EHE, KIMORE or UI-PRMD per exercise, `cd` into the 'run_files' folder and then  `python .\run_file_GeoDML_Softmax.py` or the Sigmoid file for our best variants described in the paper. You can similarly run `python .\run_file_KShapeNet_softmax.py` or the Sigmoid version for KShapeNet only.
   
 ## Test Probabilities Evaluation Metrics
-To compute ED, CR, SD and DM, use the file 'compute_euclid_and_corr' in the EHE forlder for EHE dataset; the file 'compute_cr_corr_KIMORE' for the KIMORE dataset; and the file 'compute_sd_and_dm_UI-PRMD' for the UI-PRMD dataset.
+- To compute ED, CR, SD and DM, use the file 'compute_euclid_and_corr' in the EHE forlder for EHE dataset; the file 'compute_cr_corr_KIMORE' for the KIMORE dataset; and the file 'compute_sd_and_dm_UI-PRMD' for the UI-PRMD dataset.
 
 ## Usage or Training and Evaluation Per Dataset for Multi-Class
-To perform multi-class training and evaluation, use the folder for each dataset with the name 'multi_class' appeneded. `cd` into the 'run_files' folder and `python .\GeoDML.py` for ours or `python .\Kshape_only.py` for KShapeNet. 
+- To perform multi-class training and evaluation, use the folder for each dataset with the name 'multi_class' appeneded. `cd` into the 'run_files' folder and `python .\GeoDML.py` for ours or `python .\Kshape_only.py` for KShapeNet. 
 
     
     
