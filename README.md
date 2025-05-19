@@ -24,7 +24,7 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
 - To perform multi-class training and evaluation, use the folder for each dataset with the name 'multi_class' appeneded. `cd` into the 'run_files' folder and `python .\GeoDML.py` for ours or `python .\Kshape_only.py` for KShapeNet. 
 
 ## Evaluation on NTU-RDB+D and NTU-RGB+D120 Datasets
-- Download the dataset (the skeleton files only are sufficient) from the dataset page here - [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
+- Download the dataset (the skeleton files only are sufficient) from the dataset page [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
 
     
     
