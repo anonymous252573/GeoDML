@@ -41,6 +41,6 @@ Organize the data folder to look like this.
 		└───xsub
   
 **2- Data generation from .skeleton files**
-Generate the main numpy files used for the data generation (This code goes to the creators of the [AS-GCN](https://github.com/limaosen0/AS-GCN) network). **Please make sure the data conforms to the previously presented tree**
-`cd data_gen` , then `python ntu_gen_preprocess60.py` for NTU-60 or `python ntu_gen_preprocess120.py` for NTU-120. 
+Generate the main numpy files used for the data generation (This code goes to the creators of the [AS-GCN](https://github.com/limaosen0/AS-GCN) network). **Please make sure the data conforms to the previously presented tree** \\
+run `cd data_gen` , then `python ntu_gen_preprocess60.py` for NTU-60 or `python ntu_gen_preprocess120.py` for NTU-120. 
     
