@@ -26,5 +26,18 @@ Nowadays, geometric deep learning is gaining lots of attraction in the deep lear
 ## Evaluation on NTU-RDB+D and NTU-RGB+D120 Datasets
 - Download the dataset (the skeleton files only are sufficient) from the dataset page [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
 
+**1- Organization:**
+Organize the data folder to look like this.
+
+	├───NTU-RGB+D
+	│   └───nturgb+d_skeletons /* .skeleton files for NTU60 under this folder
+	├───NTU-RGB+D120
+	│   └───nturgb+d_skeletons /* .skeleton files for NTU120 under this folder
+	├───nturgb_d
+	│   ├───xsub
+	│   └───xview
+	└───nturgb_d120
+		├───xsetup
+		└───xsub
     
     
