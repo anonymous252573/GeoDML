@@ -52,4 +52,15 @@ Result example for NTU60 xview should look like this.
 	│           val_data_joint_pad.npy
 	│           val_label.pkl
  
-**2- Data generation from .skeleton files**
+**3- Data generation from 'joint_pad.npy files', make sure you're still in the data_gen folder** <br>
+run `python generate_2bodies.py` for NTU-60 or `python generate_2bodies_120.py` for NTU-120. 
+Result example after generation for NTU60 xview should appear like this:
+
+    │   └───xview
+    │           .gitkeep
+    │           test_xview_interp100.npy
+    │           train_data_joint_pad.npy
+    │           train_label.pkl
+    │           train_xview_interp100.npy
+    │           val_data_joint_pad.npy
+    │           val_label.pkl
