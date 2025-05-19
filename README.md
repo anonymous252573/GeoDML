@@ -64,3 +64,7 @@ Result example after generation for NTU60 xview should appear like this:
     │           train_xview_interp100.npy
     │           val_data_joint_pad.npy
     │           val_label.pkl
+
+**4- Model training and testing, (please make sure you're in the root file of the repository)**
+run the file `NTU60_KShape.py` for KShapeNet on NTU-60 and the file `NTU60_GeoDML.py` for GeoDML on NTU-60. Run the other corresponding scripts for NTU-120. 
+--prot [xview,xsub] --num_epoch [EPOCHS] --layer_name [RigidTransform, RigidTransformInit, NonRigidTransform, NonRigidTransformInit] --learning_rate [lr] --batch_size [size] --batch_size_test [size'] --save [True,False]
